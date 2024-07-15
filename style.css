@@ -32,9 +32,13 @@ img {
 
 h1 {
     font-size: 18px;
+    padding: 0 1rem;
 }
 
 h1, p {
-    text-align: center;
+    text-align: center; 
 }
 
+p {
+    padding: 1rem;
+}
