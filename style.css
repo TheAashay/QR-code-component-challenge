@@ -63,13 +63,10 @@ p {
 
 a {
     text-decoration: none;
-    color: hsl(218, 44%, 22%);
 }
 
-.click:hover {
-    background-color: hsl(218, 44%, 22%);
-}
-
-.click:hover a {
+a:hover p{
     color: hsl(0, 0%, 100%);
+    background-color: hsl(218, 44%, 22%);
+    transition: all ease 0.3s;
 }
