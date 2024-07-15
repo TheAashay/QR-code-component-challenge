@@ -19,6 +19,8 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 17rem;
+    border: 2px solid black;
+    border-radius: 0.625rem;
 }
 
 img {
