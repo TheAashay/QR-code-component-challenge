@@ -49,3 +49,27 @@ p {
     padding: 1rem;
     color: hsl(220, 15%, 55%);
 }
+
+.attribution {
+    padding: 1rem;
+}
+
+.click {
+    max-width: 15rem;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0.5rem;
+    border-radius: 0.625rem;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(218, 44%, 22%);
+}
+
+.click:hover {
+    background-color: hsl(218, 44%, 22%);
+}
+
+.click:hover a {
+    color: hsl(0, 0%, 100%);
+}
