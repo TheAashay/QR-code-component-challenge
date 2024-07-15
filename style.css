@@ -52,12 +52,12 @@ p {
 
 .attribution {
     padding: 1rem;
+    padding-bottom: 0;
 }
 
 .click {
     max-width: 15rem;
     background-color: hsl(0, 0%, 100%);
-    margin: 0.5rem;
     border-radius: 0.625rem;
 }
 
@@ -69,4 +69,8 @@ a:hover p{
     color: hsl(0, 0%, 100%);
     background-color: hsl(218, 44%, 22%);
     transition: all ease 0.3s;
+}
+
+.click:nth-child(1) {
+    margin-bottom: .5rem;
 }
