@@ -12,6 +12,9 @@ body {
     min-height: 100vh;
     font-size: 15px;
     background-color: hsl(212, 45%, 89%);
+    font-family: "Origin", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
 }
 
 .card {
@@ -39,6 +42,7 @@ h1 {
 
 h1, p {
     text-align: center; 
+    line-height: 1.5;
 }
 
 p {
